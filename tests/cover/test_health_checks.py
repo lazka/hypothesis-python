@@ -178,11 +178,8 @@ def test_returning_non_none_is_forbidden():
 
 
 def test_a_very_slow_test_will_fail_a_health_check():
-    called = [False]
-
     @given(st.integers())
     def a(x):
-        called[0] = True
         time.sleep(1000)
     with raises(FailedHealthCheck):
         a()
