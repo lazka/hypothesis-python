@@ -22,7 +22,7 @@ You should generally assume that an API is internal unless you have specific
 information to the contrary.
 
 -------------------
-3.9.13 - 2017-07-16
+3.13.0 - 2017-07-15
 -------------------
 
 This release introduces a deprecation of the timeout feature. This results in
