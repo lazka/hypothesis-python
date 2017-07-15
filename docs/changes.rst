@@ -32,9 +32,9 @@ the following changes:
   warning.
 * If your test stops because it hits the timeout (and has not found a bug) then
   it will emit a deprecation warning.
-* There is a new value `unlimited` which you can import from hypothesis.
-  `settings(timeout=unlimited)` will *not* cause a deprecation warning.
-* There is a new health check, `hung_test`, which will trigger after a test
+* There is a new value ``unlimited`` which you can import from hypothesis.
+  ``settings(timeout=unlimited)`` will *not* cause a deprecation warning.
+* There is a new health check, ``hung_test``, which will trigger after a test
   has been running for five minutes if it is not suppressed.
 
 
